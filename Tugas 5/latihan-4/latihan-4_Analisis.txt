@@ -1,0 +1,17 @@
+ANALISI
+1. Array Statis(latihan 4.1):
+	- Menggunakan array statis mahasiswa dengan ukuran 4 untuk menyimpan data mahasiswa.
+	- Data mahasiswa seperti NIM, nama, jurusan, dan tahun lulus diinisialisasi menggunakan fungsi strcpy.
+	- Setiap elemen dalam array mahasiswa dicetak menggunakan loop for.
+	- Output menampilkan data mahasiswa yang telah diisi sebelumnya.
+2. Array Dinamis(latihan 4.2):
+	- Meminta input dari pengguna untuk jumlah mahasiswa yang akan dimasukkan.
+	- Mengalokasikan memori secara dinamis menggunakan operator new untuk array mahasiswa dengan ukuran yang diberikan oleh pengguna.
+	- Menggunakan loop for untuk mengisi data mahasiswa yang dimasukkan oleh pengguna menggunakan cin.
+	- Setiap elemen dalam array mahasiswa dicetak menggunakan loop for.
+	- Setelah selesai, memori yang dialokasikan untuk array mahasiswa dihapus menggunakan operator delete[].
+Analisis Keseluruhan:
+Kode di atas merupakan contoh penggunaan array of structure untuk menyimpan data mahasiswa. Terdapat dua contoh, yaitu dengan array statis dan array dinamis.
+Dalam kedua contoh, struktur Mahasiswa digunakan untuk menyimpan informasi mahasiswa seperti NIM, nama, jurusan, dan tahun lulus. Data mahasiswa diinput atau diinisialisasi, kemudian dicetak menggunakan loop for.
+Contoh pertama menggunakan array statis dengan ukuran tetap, sedangkan contoh kedua menggunakan array dinamis dengan ukuran yang ditentukan oleh pengguna.
+Kode ini menggambarkan penggunaan terstruktur untuk menyimpan dan mengelola data mahasiswa. Hal ini mempermudah pengaksesan dan pengolahan data dengan mengelompokkan atribut-atribut terkait menjadi satu variabel.
